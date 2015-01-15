@@ -5,6 +5,11 @@ Also, the source code is tiny, weighing in at jut 65 bytes.
 
 =========================
 
+## Installing
+
+- install bower with npm
+- run `bower install momentarily-awful.js`
+
 ## Usage
 
 momentarily-awful.js formats are a superset of javascript. There is one special character in momentarily-awful.js formats
