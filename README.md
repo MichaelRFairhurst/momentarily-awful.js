@@ -15,9 +15,10 @@ But don't let that turn you off, because all of JavaScript is made available to 
 
 ## Example formats:
 
-* Get day - `momentarilyAwful(date, "d.getDay()+1");`
+* Get day - `momentarilyAwful(date, "d.getDate()+1");`
 * Get month - `momentarilyAwful(date, "d.getMonth()+1");`
 * Get year - `momentarilyAwful(date, "d.getFullYear()");`
+* Month Day Year - `momentarilyAwful(date, "d.getFullYear() + '-' + (d.getMonth() + 1 < 10 ? '0' + (d.getMonth() + 1) : (d.getMonth() + 1)) + '-' + (d.getDate() < 10 ? '0' + d.getDate() : d.getDate())");`
 
 ## Plugins
 
